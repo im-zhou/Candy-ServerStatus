@@ -1,11 +1,9 @@
 # Candy-ServerStatus 糖果服务器云探针
 2020 07 14
 
+![Latest Version](http://icland.xyz/picture/Candy-ServerStatus-github-examples.png)
+
 # 在线展示 https://icland.xyz/status/
-
-# 效果展示
-
-![](https://icland.xyz/picture/Candy-ServerStatus-github-examples.png)
 
 # 基于修改&优化&去杂
 ```bash
