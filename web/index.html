@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<link rel="icon" type="image/x-icon" href="img/favicon.ico" sizes="64x64">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Candy-ServerStatus</title>
+
+    <!-- Fix chrome language detection -->
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta http-equiv="Content-Language" content="zh" />
+
+    <!-- Styles -->
+    <link href="css/core.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/hotaru_fix.css" rel="stylesheet">
+
+</head>
+
+<body>
+        <section id="content" style="text-align: center;">
+                <!-- Content Row -->
+                <section class="hotaru-cover">
+                    <div class="container">
+                        <header>
+                            <h1>
+                                <strong>Candy-ServerStatus</strong>
+                            </h1>
+                        </header>
+                        <div>
+                            <p>
+                                <small>此页面仅供参考！<br />此页面最大延时30分钟，如发现超时请联系管理员！</small>
+                            </p>
+                        </div>
+                    </div>
+                </section>
+        </section>
+        <div class="container">
+			<div id="loading-notice">
+				<div class="progress progress-striped active">
+					<div class="progress-bar progress-bar-warning" style="width: 100%;">Loading...</div>
+				</div>
+				<div style="text-align:center;">
+					如果出现此消息，請确认您已启用Javascript！ <br />否则请检查主服务（服务端）是否启动.
+				</div>
+			</div>
+          	
+			<table class="table table-striped">
+				<thead>
+				<tr>
+					<th id="status4">IPV4</th>
+					<th id="status6">IPV6</th>
+					<th id="name">节点</th>
+					<th id="type">类型</th>
+					<th id="location">位置</th>
+					<th id="uptime">运行</th>
+					<th id="load">负载</th>
+					<th id="network">网络(B/s) ↓|↑</th>
+					<th id="traffic">流量(B) ↓|↑</th>
+					<th id="cpu">CPU</th>
+					<th id="ram">RAM</th>
+					<th id="hdd">ROM</th>
+				</tr>
+				</thead>
+				<tbody id="servers" style="text-align:center;">
+				<!-- Servers here \o/ -->
+				</tbody>
+			</table>
+  			
+			<br />
+			<div id="updated" style="margin-left: 5px;">更新中...</div>
+		</div>
+
+    <!-- Scripts -->
+	<script src="js/jquery-1.10.2.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/serverstatus.js"></script>
+</body>
+<footer>
+  
+<!---footer style="text-align:center;">
+    <p>Powered by <a href="https://github.com/CokeMine/ServerStatus-Hotaru">ServerStatus-Candy</a></p>
+</footer-->
+
+</html>

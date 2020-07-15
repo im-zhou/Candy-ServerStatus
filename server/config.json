@@ -1,0 +1,39 @@
+{"servers":
+	[
+		{
+			"username": "user",
+			"name": "主站点",
+			"type": "Raspberry Pi",
+			"host": "icland.xyz",
+			"location": "HE-TS",
+			"password": "user"
+		},
+		{
+			"disabled": false,
+			"username": "user-fwq",
+			"name": "服务器",
+			"type": "Windows",
+			"host": "icland.xyz",
+			"location": "FJ-NE",
+			"password": "user-fwq"
+		},
+		{
+			"disabled": true,
+			"username": "hidden",
+			"name": "Secret",
+			"type": "Nothing",
+			"host": "Noone",
+			"location": "Nowhere",
+			"password": "thanks doge"
+		},
+		{
+			"disabled": false,
+			"username": "user-cloud",
+			"name": "云备份",
+			"type": "Linux",
+			"host": "icland.xyz",
+			"location": "HE-TS",
+			"password": "user-cloud"
+		}
+	]
+}
