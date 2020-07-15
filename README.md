@@ -1,8 +1,6 @@
 # Candy-ServerStatus 糖果服务器云探针
 2020 07 14
 
-![](https://icland.xyz/picture/20200715124250.png)
-
 # 在线展示 https://icland.xyz/status/
 
 # 基于修改&优化&去杂
