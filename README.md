@@ -1,7 +1,7 @@
 # Candy-ServerStatus 糖果服务器云探针
 2020 07 14
 
-![image](http://icland.xyz/picture/Candy-ServerStatus-github-examples.png)
+![image](https://github.com/skyxingcheng/Candy-ServerStatus/blob/master/web/img/Candy-ServerStatus-github-examples.png)
 
 # 在线展示 https://icland.xyz/status/
 
