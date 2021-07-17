@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-	<link rel="icon" type="image/x-icon" href="img/favicon.ico" sizes="64x64">
+	<link rel="icon" type="image/x-icon" href="https://cdn.jsdelivr.net/gh/skyxingcheng/ic-cdn@master/static/pictures/favicon.ico" sizes="64x64">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Candy-ServerStatus</title>
@@ -12,10 +12,10 @@
     <meta http-equiv="Content-Language" content="zh" />
 
     <!-- Styles -->
-    <link href="css/core.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <link href="css/hotaru_fix.css" rel="stylesheet">
-
+    <link href="https://cdn.jsdelivr.net/gh/skyxingcheng/ic-cdn@master/static/css/status-core.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/gh/skyxingcheng/ic-cdn@master/static/css/status-main.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/gh/skyxingcheng/ic-cdn@master/static/css/status-hotaru_fix.css" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/gh/skyxingcheng/ic-cdn@master/static/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -49,18 +49,19 @@
 			<table class="table table-striped">
 				<thead>
 				<tr>
-					<th id="status4">IPV4</th>
-					<th id="status6">IPV6</th>
+					<th id="status4">IPv4</th>
+					<th id="status6">IPv6</th>
 					<th id="name">节点</th>
 					<th id="type">类型</th>
 					<th id="location">位置</th>
 					<th id="uptime">运行</th>
 					<th id="load">负载</th>
-					<th id="network">网络(B/s) ↓|↑</th>
-					<th id="traffic">流量(B) ↓|↑</th>
+					<th id="network">网络 <i class='fa fa-arrow-circle-down'>|<i class='fa fa-arrow-circle-up'></th>
+					<th id="traffic">流量 <i class='fa fa-arrow-circle-down'>|<i class='fa fa-arrow-circle-up'></th>
 					<th id="cpu">CPU</th>
-					<th id="ram">RAM</th>
-					<th id="hdd">ROM</th>
+					<th id="ram">内存</th>
+					<th id="hdd">硬盘</th>
+					<th id="ping">丢包率(CM|CT|CU)</th>
 				</tr>
 				</thead>
 				<tbody id="servers" style="text-align:center;">
@@ -73,14 +74,9 @@
 		</div>
 
     <!-- Scripts -->
-	<script src="js/jquery-1.10.2.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/serverstatus.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/skyxingcheng/ic-cdn@master/static/js/status-jquery-1.10.2.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/skyxingcheng/ic-cdn@master/static/js/status-bootstrap.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/skyxingcheng/ic-cdn@master/static/js/status-serverstatus.js"></script>
 </body>
 <footer>
-  
-<!---footer style="text-align:center;">
-    <p>Powered by <a href="https://github.com/CokeMine/ServerStatus-Hotaru">ServerStatus-Candy</a></p>
-</footer-->
-
 </html>
