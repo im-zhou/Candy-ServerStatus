@@ -1,7 +1,7 @@
 # Candy-ServerStatus 糖果服务器云探针
 2021 07 17
 
-# 在线展示 http://kvm.icland.xyz/
+# 在线展示 http://status.bfsea.cn/
 
 ![](https://cdn.jsdelivr.net/gh/skyxingcheng/ic-cdn@master/static/pictures/20210717101613.png)
 

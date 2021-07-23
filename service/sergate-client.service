@@ -5,10 +5,10 @@ After=network.target
 
 [Service]
 Type=simple
-WorkingDirectory=/home/serverstatus
+WorkingDirectory=/home
 User=root
 Group=root
-ExecStart=python /home/serverstatus/client-linux-main.py
+ExecStart=python /home/client-linux-main.py
 ExecReload=/bin/kill -HUP $MAINPID
 StandardOutput=syslog
 StandardError=syslog
