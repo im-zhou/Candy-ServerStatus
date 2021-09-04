@@ -1,7 +1,7 @@
 # Candy-ServerStatus 糖果服务器云探针
 2021 09 04
 
-# 在线展示 http://status.bfsea.xyz/
+# 在线展示 https://status.bfsea.xyz/
 
 ![](https://cdn.jsdelivr.net/gh/skyxingcheng/ic-cdn@master/static/pictures/20210717101613.png)
 
